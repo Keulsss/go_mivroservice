@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/lucpuiroux/Developer/go_microservice'
+echo "Starting Docker images..."
+docker-compose up -d --remove-orphans
+echo "Docker images started!"
+make: Leaving directory `/Users/lucpuiroux/Developer/go_microservice'
+ 
